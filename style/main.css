@@ -31,16 +31,27 @@ nav {
   padding-inline: 2rem;
 }
 
-.menu {
-  margin-inline: 1rem;
+.nav__main,
+.nav__search {
+  display: flex;
+  width: 30%;
+  cursor: pointer;
+}
+
+.nav__items {
+  width: 40%;
+  cursor: pointer;
+}
+
+.menu-img {
+  display: inline;
   width: 24px;
+  margin-right: 1rem;
 }
 
 .nav__logo {
   display: flex;
   align-items: center;
-
-  margin-right: 10rem;
 }
 
 .img-logo {
@@ -57,14 +68,26 @@ nav {
 .nav__items ul {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
 }
 
-ul li {
-  cursor: pointer;
-  margin-inline: 1rem;
+ul li:not(:last-child) {
+  margin-right: 0.6rem;
 }
 
-span {
+.sign-in {
+  display: flex;
+  align-items: center;
+
+  border: 1px solid #3ea6ff;
+  padding: 0.5rem 0.6rem;
+}
+
+.sign-in span {
+  padding-left: 3px;
   color: #3ea6ff;
+  font-size: 1.4rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: center;
 }
