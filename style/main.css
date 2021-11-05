@@ -41,7 +41,7 @@ nav {
 .menu-img {
   display: inline;
   width: 24px;
-  margin-right: 1rem;
+  /* margin-right: 0.5rem; */
 }
 
 .nav__logo {
@@ -79,9 +79,9 @@ nav {
   justify-content: flex-end;
 }
 
-.nav__items ul li:not(:last-child) {
-  /* margin-right: 0.5px; */
-}
+/* .nav__items ul li:not(:last-child) {
+  margin-right: 0.5px;
+} */
 
 .sign-in {
   display: flex;
