@@ -34,7 +34,7 @@ nav {
 .nav__main,
 .nav__search {
   display: flex;
-  width: 30%;
+  width: 28%;
   cursor: pointer;
 }
 
@@ -64,12 +64,13 @@ nav {
   justify-content: flex-end;
 }
 .nav__search {
-  padding-right: 3rem;
+  padding-right: 1.5rem;
 }
 
 .nav__items {
-  width: 40%;
+  width: 46%;
   cursor: pointer;
+  /* border: 1px solid #cc0000; */
 }
 
 .nav__items ul {
@@ -79,7 +80,7 @@ nav {
 }
 
 .nav__items ul li:not(:last-child) {
-  margin-right: 0.6rem;
+  /* margin-right: 0.5px; */
 }
 
 .sign-in {
@@ -91,6 +92,7 @@ nav {
 }
 
 .sign-in span {
+  width: 60px;
   padding-left: 3px;
   color: #3ea6ff;
   font-size: 1.4rem;
@@ -100,6 +102,7 @@ nav {
 }
 
 /* *********************************** */
+
 main {
   margin-top: 8rem;
 }
@@ -124,6 +127,7 @@ main {
   margin: 3rem;
   color: #fff;
   font-size: 1.8rem;
+  width: 80%;
 }
 
 .video-views {
@@ -190,13 +194,13 @@ main {
 .subscribe-btn {
   float: right;
   text-transform: uppercase;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 600;
 
   background-color: #cc0000;
   color: #fff;
-
-  padding: 1rem 1.5rem;
+  border-radius: 4px;
+  padding: 1rem 1rem;
 
   border: none;
   outline: none;
@@ -204,6 +208,7 @@ main {
 
   position: relative;
   top: -4rem;
+  right: -2rem;
 }
 
 .show-more {
@@ -213,4 +218,33 @@ main {
   font-size: 1.2rem;
   text-transform: uppercase;
   cursor: pointer;
+}
+
+.videos-related-container {
+  margin-inline: 3rem;
+  margin-top: 2rem;
+  width: 80%;
+}
+
+.video-related {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.details {
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.details h5 {
+  color: #fff;
+  font-size: 1.4rem;
+  text-transform: capitalize;
+}
+
+.details h6 {
+  color: #aaaaaa;
+  font-size: 1.2rem;
 }
