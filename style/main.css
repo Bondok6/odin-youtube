@@ -134,6 +134,8 @@ main {
 }
 
 .video-details {
+  padding-bottom: 1rem;
+  border-bottom: 0.1px solid #ffffff66;
 }
 
 .video-details ul {
@@ -155,4 +157,60 @@ main {
   top: -5px;
   text-transform: uppercase;
   font-size: 1.5rem;
+}
+
+.video-profile {
+  margin-inline: 3rem;
+  width: 80%;
+  padding-bottom: 1.5rem;
+  border-bottom: 0.1px solid #ffffff66;
+}
+
+.profile-img {
+  float: left;
+  border-radius: 50%;
+  width: 70px;
+  margin-right: 2rem;
+}
+
+.profile-name {
+  display: inline-block;
+  padding-block: 2rem 0.6rem;
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.subscribe {
+  color: #aaaaaa;
+  font-size: 1.2rem;
+}
+
+.subscribe-btn {
+  float: right;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 600;
+
+  background-color: #cc0000;
+  color: #fff;
+
+  padding: 1rem 1.5rem;
+
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+  position: relative;
+  top: -4rem;
+}
+
+.show-more {
+  margin-top: 3rem;
+  margin-left: 9rem;
+  color: #aaaaaa;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  cursor: pointer;
 }
