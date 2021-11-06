@@ -41,7 +41,6 @@ nav {
 .menu-img {
   display: inline;
   width: 24px;
-  /* margin-right: 0.5rem; */
 }
 
 .nav__logo {
@@ -62,15 +61,42 @@ nav {
 
 .nav__search {
   justify-content: flex-end;
+  width: 50%;
 }
 .nav__search {
   padding-right: 1.5rem;
 }
 
+.search-input {
+  /* show only in large and meduim screen */
+
+  display: none;
+  background-color: #121212;
+  color: #fff;
+
+  width: 30rem;
+  height: 3.3rem;
+
+  border: none;
+  outline: none;
+
+  margin-right: 1rem;
+
+  font-size: 1.8rem;
+  padding: 1rem;
+}
+
+.search-input:focus {
+  border: 1px solid #3ea6ff;
+}
+
+.search-input::placeholder {
+  color: #888888;
+}
+
 .nav__items {
   width: 46%;
   cursor: pointer;
-  /* border: 1px solid #cc0000; */
 }
 
 .nav__items ul {
@@ -78,10 +104,6 @@ nav {
   align-items: center;
   justify-content: flex-end;
 }
-
-/* .nav__items ul li:not(:last-child) {
-  margin-right: 0.5px;
-} */
 
 .sign-in {
   display: flex;
@@ -110,7 +132,7 @@ main {
 .container {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .main-video {
@@ -200,7 +222,7 @@ main {
   background-color: #cc0000;
   color: #fff;
   border-radius: 4px;
-  padding: 1rem 1rem;
+  padding: 1rem;
 
   border: none;
   outline: none;
@@ -219,6 +241,8 @@ main {
   text-transform: uppercase;
   cursor: pointer;
 }
+
+/* ************************************************** */
 
 .videos-related-container {
   margin-inline: 3rem;
@@ -247,4 +271,79 @@ main {
 .details h6 {
   color: #aaaaaa;
   font-size: 1.2rem;
+}
+
+/* Meduim Screen */
+
+@media only screen and (min-width: 779px) {
+  .search-input {
+    display: block;
+    width: 25rem;
+  }
+  .nav__items ul li:not(:last-child) {
+    margin-right: 1rem;
+  }
+
+  .main-video iframe {
+    height: 50rem;
+  }
+
+  .video-details ul li {
+    padding-left: 1.5rem;
+  }
+
+  .subscribe-btn {
+    font-size: 1.5rem;
+    padding: 1.3rem 2rem;
+  }
+}
+
+/* Large Screen */
+
+@media only screen and (min-width: 1200px) {
+  .menu-img {
+    margin-right: 2rem;
+  }
+  .search-input {
+    width: 100%;
+  }
+  .nav__items {
+    width: 33%;
+  }
+  .nav__items ul li {
+    margin-right: 1.3rem;
+  }
+
+  .container {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+
+    width: 100vw;
+    margin: 0 3rem;
+
+    width: 100%;
+  }
+  .main-video {
+    width: 60%;
+  }
+  .main-video iframe {
+    width: 100%;
+  }
+
+  .videos-related-container {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5rem;
+  }
+
+  .video-profile,
+  .video-caption {
+    width: 95%;
+  }
+
+  .subscribe-btn {
+    right: 0;
+  }
 }
