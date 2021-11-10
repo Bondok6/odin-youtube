@@ -3,11 +3,13 @@
 
 > ### The mockup design of YouTube page.
 
-<!-- ![image preview](imgs/Preview.PNG) -->
+![image preview](imgs/mobile-preview.PNG) 
+![image preview](imgs/laptop-preview.PNG)
+
 
 ## Live Demo
 
-<!-- > ### [Live Demo Link](https://bondok6.github.io/Mapty-app/) -->
+> ### [Live Demo Link](https://bondok6.github.io/odin-youtube/)
 
 
 ## Built with
