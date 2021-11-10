@@ -1,5 +1,20 @@
-# odin-youtube
+# EMBEDDING IMAGES AND VIDEO
 
-the mockup design of YouTube page
 
-## ⚒ Working on it
+> ### The mockup design of YouTube page.
+
+<!-- ![image preview](imgs/Preview.PNG) -->
+
+## Live Demo
+
+<!-- > ### [Live Demo Link](https://bondok6.github.io/Mapty-app/) -->
+
+
+## Built with
+
+- HTML
+- CSS
+
+## Additional Used
+
+- Google Fonts
