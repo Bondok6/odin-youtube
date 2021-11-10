@@ -3,7 +3,7 @@
 
 > ### The mockup design of YouTube page.
 
-![image preview](imgs/Preview.PNG)
+<!-- ![image preview](imgs/Preview.PNG) -->
 
 ## Live Demo
 
