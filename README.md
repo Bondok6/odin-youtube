@@ -1,4 +1,4 @@
-# EMBEDDING IMAGES AND VIDEO
+# YouTube Clone
 
 
 > ### The mockup design of YouTube page.
