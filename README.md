@@ -12,7 +12,6 @@
 
 > ### [Live Demo Link](https://bondok6.github.io/odin-youtube/)
 
-
 ## Built with
 
 - HTML
